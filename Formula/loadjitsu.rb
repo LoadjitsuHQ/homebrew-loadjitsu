@@ -24,4 +24,8 @@ class Loadjitsu < Formula
   test do
     assert_predicate prefix/"Loadjitsu.app", :exist?, "Loadjitsu.app must exist"
   end
+  # Link the app into the Applications directory
+  def post_install
+    system "ln", "-sf", "#{opt_prefix}/Loadjitsu.app", "/Applications/Loadjitsu.app"
+  end
 end
