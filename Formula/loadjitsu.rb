@@ -2,7 +2,7 @@ class Loadjitsu < Formula
   desc "Loadjitsu - A load testing tool"
   homepage "https://github.com/LoadjitsuHQ/loadjitsu-releases"
   url "https://github.com/LoadjitsuHQ/loadjitsu-releases/releases/download/v0.0.6/Loadjitsu_aarch64.app.tar.gz"
-  sha256 "f14abf3c7d01443a2d72c3d26b6e69a03ce5635e"
+  sha256 "6992ddd902f7e2e566362833a5d376d75f0688f3264b67b007589d2d3ad65e51"
   version "0.0.6"
 
   def install
