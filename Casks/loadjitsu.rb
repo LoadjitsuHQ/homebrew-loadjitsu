@@ -1,8 +1,8 @@
 cask 'loadjitsu' do
-  version '0.0.6'
-  sha256 '6992ddd902f7e2e566362833a5d376d75f0688f3264b67b007589d2d3ad65e51'
+  version '0.1.0'
+  sha256 '2d38124877daecfe1db8a39cfe07816a60f7cabc381879ffee6ed4bbc748945c'
 
-  url "https://github.com/LoadjitsuHQ/loadjitsu-releases/releases/download/v0.0.6/Loadjitsu_aarch64.app.tar.gz"
+  url "https://github.com/LoadjitsuHQ/loadjitsu-releases/releases/download/v0.1.0/Loadjitsu_aarch64.app.tar.gz"
   name 'Loadjitsu'
   desc 'Loadjitsu - A load testing tool'
   homepage 'https://github.com/LoadjitsuHQ/loadjitsu-releases'
